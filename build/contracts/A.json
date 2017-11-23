@@ -1,0 +1,167 @@
+{
+  "contractName": "A",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "profile",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b60848061001c6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ab60636c146044575b600080fd5b3415604e57600080fd5b60546056565b005b5600a165627a7a72305820ff64122c7280cbc53bbc65cf2922922ae591604d29e730cb92a4fe2abf0e73ae0029",
+  "deployedBytecode": "0x606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ab60636c146044575b600080fd5b3415604e57600080fd5b60546056565b005b5600a165627a7a72305820ff64122c7280cbc53bbc65cf2922922ae591604d29e730cb92a4fe2abf0e73ae0029",
+  "sourceMap": "53:79:0:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "53:79:0:-;;;;;;;;;;;;;;;;;;;;;;;;84:46;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity 0.4.18;\n\nimport './Profilable.sol';\n\ncontract A is Profilable {\n    function profile()\n        public\n    {\n\n    }\n}\n",
+  "sourcePath": "/Users/matt/Projects/crypto/profile-contracts/contracts/A.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/matt/Projects/crypto/profile-contracts/contracts/A.sol",
+      "exportedSymbols": {
+        "A": [
+          9
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.4",
+            ".18"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 223,
+          "absolutePath": "/Users/matt/Projects/crypto/profile-contracts/contracts/Profilable.sol",
+          "file": "./Profilable.sol",
+          "scope": 10,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 2,
+        "name": "ImportDirective",
+        "src": "25:26:0"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            222
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            9,
+            222
+          ],
+          "name": "A",
+          "scope": 10
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": [
+                null
+              ]
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "Profilable",
+                  "referencedDeclaration": 222,
+                  "type": "contract Profilable"
+                },
+                "id": 3,
+                "name": "UserDefinedTypeName",
+                "src": "67:10:0"
+              }
+            ],
+            "id": 4,
+            "name": "InheritanceSpecifier",
+            "src": "67:10:0"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "profile",
+              "payable": false,
+              "scope": 9,
+              "stateMutability": "nonpayable",
+              "superFunction": 221,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 5,
+                "name": "ParameterList",
+                "src": "100:2:0"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 6,
+                "name": "ParameterList",
+                "src": "122:0:0"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 7,
+                "name": "Block",
+                "src": "122:8:0"
+              }
+            ],
+            "id": 8,
+            "name": "FunctionDefinition",
+            "src": "84:46:0"
+          }
+        ],
+        "id": 9,
+        "name": "ContractDefinition",
+        "src": "53:79:0"
+      }
+    ],
+    "id": 10,
+    "name": "SourceUnit",
+    "src": "0:133:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2017-11-23T10:50:00.175Z"
+}

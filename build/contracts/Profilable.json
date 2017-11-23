@@ -1,0 +1,121 @@
+{
+  "contractName": "Profilable",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "profile",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity 0.4.18;\n\ncontract Profilable {\n    function profile() public;\n}\n",
+  "sourcePath": "/Users/matt/Projects/crypto/profile-contracts/contracts/Profilable.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/matt/Projects/crypto/profile-contracts/contracts/Profilable.sol",
+      "exportedSymbols": {
+        "Profilable": [
+          155
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.4",
+            ".18"
+          ]
+        },
+        "id": 151,
+        "name": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            155
+          ],
+          "name": "Profilable",
+          "scope": 156
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "constant": false,
+              "implemented": false,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "profile",
+              "payable": false,
+              "scope": 155,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 152,
+                "name": "ParameterList",
+                "src": "67:2:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 153,
+                "name": "ParameterList",
+                "src": "76:0:1"
+              }
+            ],
+            "id": 154,
+            "name": "FunctionDefinition",
+            "src": "51:26:1"
+          }
+        ],
+        "id": 155,
+        "name": "ContractDefinition",
+        "src": "25:54:1"
+      }
+    ],
+    "id": 156,
+    "name": "SourceUnit",
+    "src": "0:80:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2017-11-23T10:50:16.710Z"
+}
